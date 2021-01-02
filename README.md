@@ -10,10 +10,12 @@
 
 ## Usage
 ```javascript
-import JszhShareDemo from 'react-native-jszh-share-demo';
+import {JszhShareDemo, JszhNativeViewDemo} from 'react-native-jszh-share-demo';
 
 JszhShareDemo.alert('123');
 JszhShareDemo.callbackData((res)=>{
     alert(res.value)
 });
+
+<JszhNativeViewDemo style={{width: 200, height: 200}}/>
 ```
